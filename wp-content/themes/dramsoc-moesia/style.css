@@ -37,3 +37,69 @@ LONDON SW7 2BB, United Kingdom
 
 
 */
+
+#page {
+	display: inherit;	
+	-webkit-animation: none;
+	animation: none;
+	background-color: #ffffff;
+}
+
+.social-area li a:hover,
+.social-widget a:hover {
+/*	-webkit-transform: rotatey(360deg);
+	-ms-transform: rotatey(360deg);
+	transform: rotatey(360deg); */
+}
+
+.main-navigation ul ul a {
+		color: #777;
+		margin: 0 auto;
+	}
+
+.top-bar {
+	position: relative;
+	width: 100%;
+	z-index: 9999;
+	background-color: #222;
+	opacity: 1;	
+}
+
+.entry-meta,
+.entry-meta a,
+.entry-footer,
+.entry-footer a {
+	color: #aaa;
+	font-size: 13px;
+}
+
+.footer-widget-area .widget{
+  margin: 0;
+}
+
+.site-info{
+text-align:center;
+}
+
+#sidebar_menu_widget-2 > ul > li > a:hover{
+  color: #fff;
+  font-style: underline;
+}
+/*
+.site-header {
+  height: Calc(100vh - 140px) !important;
+}*/
+
+.welcome-info {
+  position: absolute;
+  top: initial !important;  
+  bottom: 150px;
+}
+
+.welcome-desc {
+  text-shadow: 2px 2px 2px #000000;
+}
+
+body {
+  background-color: #111111;
+}
