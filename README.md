@@ -6,10 +6,10 @@ These modifications are provided under the terms of the GNU GPL
 the implied warranties of merchantability or fitness for a particular
 purpose.
 
-Copyright (C) 2015
-Imperial College Dramatic Society 
-Imperial College Union, Beit Quadrangle
-Prince Consort Road, South Kensington
+Copyright &copy; 2015, 2016  
+Imperial College Dramatic Society  
+Imperial College Union, Beit Quadrangle  
+Prince Consort Road, South Kensington  
 LONDON SW7 2BB, United Kingdom
 
 # License
