@@ -34,13 +34,13 @@ function moesia_nav_bar() {
 			<div class="container">
 				<div class="site-branding col-md-4">';
 				if ( get_theme_mod('site_logo') ) :
-					echo '<a href="' . esc_url( home_url('#top' ) ) . '" title="';
+					echo '<a href="' . esc_url( home_url('' ) ) . '" title="';
 						bloginfo('name');
 					echo '"><img class="site-logo" src="' . esc_url(get_theme_mod('site_logo')) . '" alt="';
 						bloginfo('name');
 					echo '" /></a>';
 				else :
-					echo '<h1 class="site-title"><a href="' . esc_url( home_url( '/#top' ) ) . '" rel="home">';
+					echo '<h1 class="site-title"><a href="' . esc_url( home_url( '/' ) ) . '" rel="home">';
 						bloginfo( 'name' );
 					echo '</a></h1>';
 					echo '<h2 class="site-description">';

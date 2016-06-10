@@ -41,8 +41,9 @@ LONDON SW7 2BB, United Kingdom
 #page {
 	display: inherit;	
 	-webkit-animation: none;
-	animation: none;
+	animation: none !important;
 	background-color: #ffffff;
+	visibility: visible !important;
 }
 
 .social-area li a:hover,
@@ -102,4 +103,36 @@ text-align:center;
 
 body {
   background-color: #111111;
+}
+
+#no-javascript {
+  visibility: visible;
+  background-color: inherit;
+  color: #111;
+  text-align: left;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1140px;
+}
+#no-javascript > section {
+  margin-left: 100px;
+}
+#no-javascript > .glyphicon-alert {
+  float: left;
+  display:table;
+  font-size: 70px;
+  width: 100px;
+  height: 99px;
+  padding-top: 8px;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: center;
+}
+#no-javascript > h1 {
+  text-align: center;
+}
+#no-javascript > h3 > a {
+  color: #555;
 }
