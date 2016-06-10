@@ -45,17 +45,17 @@
 
 	<noscript>
 		<div id="no-javascript">
-			<h1>Imperial College Dramatic Society</h1>
+			<h2>Imperial College Dramatic Society</h2>
 			<span class="glyphicon glyphicon-alert"></span>
 			<section>
-				<h2>We have detected that JavaScript is disabled in your browser.<br>
+				<h4>We have detected that JavaScript is disabled in your browser.<br>
 				We recommend you enable JavaScript to view this website.<br>
-				<em>Some parts of this website will not function if JavaScript is disabled.</em></h2>
-				<h3><a href="http://enable-javascript.com/" target="_blank">
+				<em>Some parts of this website will not function if JavaScript is disabled.</em></h4>
+				<h5><a href="http://enable-javascript.com/" target="_blank">
 				<span class="glyphicon glyphicon-question-sign"></span>
 				 Find out how to enable JavaScript by clicking here 
 				<span class="glyphicon glyphicon-chevron-right"></span>
-				</a></h3>
+				</a></h5>
 			</section>
 	</div>
 	</noscript>

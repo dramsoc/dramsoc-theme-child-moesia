@@ -93,8 +93,8 @@ text-align:center;
 
 .welcome-info {
   position: absolute;
-  top: initial !important;  
-  bottom: 150px;
+  top: auto !important;  
+  bottom: 150px !important;
 }
 
 .welcome-desc {
@@ -121,18 +121,17 @@ body {
 #no-javascript > .glyphicon-alert {
   float: left;
   display:table;
-  font-size: 70px;
-  width: 100px;
-  height: 99px;
-  padding-top: 8px;
-  margin-top: 20px;
+  font-size: 45px;
+  width: 60px;
+  height: 57px;
+  padding-top: 0;
+  margin-top: 10px;
   margin-right: 20px;
   text-align: center;
   vertical-align: center;
 }
-#no-javascript > h1 {
+#no-javascript > h2 {
   text-align: center;
 }
-#no-javascript > h3 > a {
-  color: #555;
-}
+
+#no-javascript >
